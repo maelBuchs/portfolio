@@ -1,0 +1,33 @@
+
+body
+{
+	background-color: #000000;
+	color: white;
+	font-family: Roboto;
+	font-size: 5em;
+	font-style: 900;
+    text-align: center;
+	margin: 10px;
+}
+
+h1 {
+   
+    display: inline-block;
+    transform: rotate(0deg);
+    transition: transform 5s;
+    vertical-align: middle;
+}
+
+h1:hover {
+    transform: rotate(3600deg) scale(0);
+	filter: blur(2px);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(60deg);
+    }
+}
