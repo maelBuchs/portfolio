@@ -1,33 +1,110 @@
 
-body
+body {
+    background-color: rgb(24, 24, 24);
+  }
+a
 {
-	background-color: #000000;
-	color: white;
-	font-family: Roboto;
-	font-size: 5em;
-	font-style: 900;
-    text-align: center;
-	margin: 10px;
+    color: #747474;
+    text-decoration: none;
 }
 
-h1 {
-   
-    display: inline-block;
-    transform: rotate(0deg);
-    transition: transform 5s;
-    vertical-align: middle;
+a:hover
+{
+    color: #ffffff;
+}
+.container{
+    margin: auto;
+    /* background: white; */
+    padding: 10px;
 }
 
-h1:hover {
-    transform: rotate(3600deg) scale(0);
-	filter: blur(2px);
+li.head_button{
+    font-size: 20px;
+    line-height: 60px;
+    margin: 0px;
+    padding: 5px;
+    list-style: none;
 }
 
-@keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(60deg);
-    }
+ul{
+    list-style: none;
+    margin: auto 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+div.header{
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+}
+
+img.logo{
+    height: 60px;
+    border-radius: 8px;
+    color: #202020;
+    align-self: flex-end;
+}
+
+.subtitle
+{
+    font-size: 20px;
+    color: #747474;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 150px;
+    margin: 0px;    
+    padding: 0px;
+    
+}
+
+.item:hover{
+    background-color: #303030;
+}
+
+.item
+{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #202020;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.item_title{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+    color : #ffffff;
+}
+
+.item_date{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+
+div.all{
+    width: 100%;
+    max-width: 800px;
+    background-color: rgb(24, 24, 24);
+    font-family: Consolas;
+    /* margin: 50px; */
+    /* padding: 0; */
+    color:white;
+    /* display: flex; */
+    margin: auto;
 }
