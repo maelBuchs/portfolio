@@ -98,14 +98,20 @@ h1{
     float: right;
 }
 
+.hehe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(22, 22, 22);;
+    padding: 0px;
+}
+
 div.all{
     width: 100%;
     max-width: 800px;
     background-color: rgb(24, 24, 24);
     font-family: Consolas;
-    /* margin: 50px; */
-    /* padding: 0; */
     color:white;
-    /* display: flex; */
     margin: auto;
 }
