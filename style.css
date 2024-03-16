@@ -112,7 +112,7 @@ div.all{
     width: 100%;
     max-width: 800px;
     background-color: rgb(24, 24, 24);
-    font-family: Consolas;
+    font-family: Inconsolata;
     color:white;
     margin: auto;
 }
@@ -120,7 +120,8 @@ div.all{
 footer{
     width: 100%;
     max-width: 800px;
-    font-family: Consolas;
+    font-family: Inconsolata;
+    font-weight: 600;
     color:white;
     margin: auto;
    padding: 10px;
