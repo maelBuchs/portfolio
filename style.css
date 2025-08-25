@@ -1,140 +1,148 @@
-
 body {
-    background-color: rgb(24, 24, 24);
-  }
-a
-{
-    color: #747474;
-    text-decoration: none;
+  background-color: rgb(24, 24, 24);
+}
+a {
+  color: #747474;
+  text-decoration: none;
 }
 
-a:hover
-{
-    color: #ffffff;
+a:hover {
+  color: #ffffff;
 }
-.container{
-    margin: auto;
-    /* background: white; */
-    padding: 10px;
-}
-
-li.head_button{
-    font-size: 20px;
-    line-height: 60px;
-    margin: 0px;
-    padding: 5px;
-    list-style: none;
+.container {
+  margin: auto;
+  /* background: white; */
+  padding: 10px;
 }
 
-ul{
-    list-style: none;
-    margin: auto 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
+li.head_button {
+  font-size: 20px;
+  line-height: 60px;
+  margin: 0px;
+  padding: 5px;
+  list-style: none;
 }
 
-div.header{
-    width: 100%;
-    max-width: 800px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: auto;
+ul {
+  list-style: none;
+  margin: auto 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
 }
 
-img.logo{
-    height: 60px;
-    padding: 10px;
-    border-radius: 20px;
-    color: #202020;
-    align-self: flex-end;
+div.header {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
 }
 
-.subtitle
-{
-    font-size: 20px;
-    color: #747474;
-    margin: 0px;
-    padding: 0px;
+img.logo {
+  height: 60px;
+  padding: 10px;
+  border-radius: 20px;
+  color: #202020;
+  align-self: flex-end;
 }
 
-h1{
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    margin: 0px;    
-    padding: 0px;
-    
+.subtitle {
+  font-size: 20px;
+  color: #747474;
+  margin: 0px;
+  padding: 0px;
 }
 
-.item:hover{
-    background-color: #303030;
+h1 {
+  color: rgb(255, 255, 255);
+  font-size: 70px;
+  margin: 0px;
+  padding: 0px;
 }
 
-.item
-{
-    margin: 10px;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: #202020;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    transition: 0.3s;
-
+.item:hover {
+  background-color: #303030;
 }
 
-.item_title{
-    font-size: 20px;
-    margin: 0px;
-    padding: 0px;
-    color : #ffffff;
+.item {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+.subitem:hover {
+  background-color: #303030;
 }
 
-.item_date{
-    font-size: 15px;
-    margin: 0px;
-    padding: 0px;
-    float: right;
+.subitem {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #202020;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
 }
 
-.hehe{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color:rgb(22, 22, 22);;
-    padding: 0px;
+.item_title {
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
 }
 
-div.all{
-    width: 100%;
-    max-width: 800px;
-    background-color: rgb(24, 24, 24);
-    font-family: Inconsolata;
-    color:white;
-    margin: auto;
+.item_date {
+  font-size: 15px;
+  margin: 0px;
+  padding: 0px;
+  float: right;
 }
 
-footer{
-    width: 100%;
-    max-width: 800px;
-    font-family: Inconsolata;
-    font-weight: 600;
-    color:white;
-    margin: auto;
-   padding: 10px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 20px;
+.hehe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(22, 22, 22);
+  padding: 0px;
 }
 
-img{
-    transition: 0.3s;
+div.all {
+  width: 100%;
+  max-width: 800px;
+  background-color: rgb(24, 24, 24);
+  font-family: Inconsolata;
+  color: white;
+  margin: auto;
 }
 
-img:hover{
-    transform: scale(1.3);
-    border-radius: 50px;
+footer {
+  width: 100%;
+  max-width: 800px;
+  font-family: Inconsolata;
+  font-weight: 600;
+  color: white;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 20px;
+}
+
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.3);
+  border-radius: 50px;
 }
